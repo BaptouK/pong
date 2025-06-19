@@ -1,0 +1,34 @@
+# Fichiers et dossiers générés par CMake
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Fichiers générés par CLion (JetBrains)
+.idea/
+*.iml
+
+# Binaires, objets et exécutables
+*.o
+*.obj
+*.so
+*.a
+*.exe
+*.dll
+*.dylib
+*.out
+
+# Fichiers de log et temporaires
+*.log
+*.tmp
+
+# Sauvegardes d’éditeurs
+*~
+*.swp
+*.swo
+
+# Fichiers générés pour la compilation ou l’indexation
+build/
+out/
