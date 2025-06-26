@@ -13,8 +13,6 @@ set(CMAKE_MODULE_PATH "${SFML_ROOT}/cmake/modules" ${CMAKE_MODULE_PATH})
 # Executable sources
 add_executable(pong
         src/main.cpp
-        include/game.h
-        src/game.cpp
 )
 
 # Include headers
@@ -33,7 +31,7 @@ else()
 endif()
 
 # Copy assets folder to build dir
-file(COPY ${CMAKE_SOURCE_DIR}/assets DESTINATION ${CMAKE_BINARY_DIR})
+#file(COPY ${CMAKE_SOURCE_DIR}/assets DESTINATION ${CMAKE_BINARY_DIR})
 
 # Copy SFML DLLs to build dir on Windows
 if(WIN32)
